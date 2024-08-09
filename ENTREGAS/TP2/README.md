@@ -1,69 +1,7 @@
-# Organizacion de Datos
+# Machine Learning
 
-Entregas de la materia Organizacion de Datos, catedra Martinelli (ex-Argerich), de la Facultad de Ingeniería de la Universidad de Buenos Aires (FIUBA).
+Modelo de Machine Learning sobre la predicción de si un hongo es comestible o no. El objetivo es explicar y predecir la variable class, que vale p, si el hongo es venenoso (poisonous), o e, si el hongo es comestible (edible).
 
-## Temas de la materia
+El proyecto se divide en 4 partes. La primer parte es un <a href="https://github.com/AlanValdevenito/Organizacion-de-Datos/blob/main/ENTREGAS/TP2/PARTE-1/analisis-exploratorio.ipynb">Analisis Exploratorio</a> de los datos, la segunda parte es un modelo de <a href="https://github.com/AlanValdevenito/Organizacion-de-Datos/blob/main/ENTREGAS/TP2/PARTE-2/machine-learning-baseline.ipynb">Machine Learning Baseline</a>, la tercer parte es un clasificador basado en <a href="https://github.com/AlanValdevenito/Organizacion-de-Datos/blob/main/ENTREGAS/TP2/PARTE-3/random-forest.ipynb">Random Forest</a> y por ultimo un modelo de <a href="https://github.com/AlanValdevenito/Organizacion-de-Datos/blob/main/ENTREGAS/TP2/PARTE-4/machine-learning.ipynb">Machine Learning</a> que no se haya utilizado anteriormente, con busqueda de hiper-parametros.
 
-- Introducción a Data Science
-  - ¿Qué es Data Science?
-  - ¿Qué es Big Data?
-  - Introducción a la visualización de datos
-
-- Análisis exploratorio
-  - Introducción a Pandas
-  - Operaciones simples sobre Dataframes y Series
-  - Visualización de datos con Matplotlib y Seaborn
-  - Pandas avanzado: Paradigma split-apply-combine, groupby, transform, append, concat, merge
-  - Pandas muy avanzado: manejo de memoria, stack, unstack, pivot & pivot table
-
-- NLP I
-  - Bag of Words (BOW)
-  - TF-IDF
-  - Stemming, Lemmatizing y Stopwords
-
-- Compresión e IA:
-  - Teoría de la información
-  - Compresión sin pérdida
-  - Complejidad de Kolmogorov
-  - Inducción de Solomonoff
-
-- Spark
-  - Teoría de map-reduce
-  - API de RDDs
-  - Transformaciones y acciones
-  - Joins y broadcast joins
-  - Estructuras de alto nivel
-
-- Machine Learning:
-  - Teoría de Machine Learning (bias-variance, overfitting, underfitting, hiperparámetros y parámetros)
-  - Clasificación y Regresión
-  - Métricas y Errores
-  - Linear y logistic regression
-  - KNN
-  - Árboles, Random Forest y XGBoost
-  - Feature Engineering
-
-- Deep Learning:
-  - Perceptrón
-  - Teorema de aproximación universal y activaciones no lineales
-  - Descenso por el gradiente y backpropagation
-  - Aprendizaje profundo y sus aplicaciones
-
-- NLP II:
-  - Recurrent Neural Networks
-  - Convoluciones 1D, Max pooling y Average pooling
-  - Word embeddings
-  - Fasttext
-  - Char embeddings
-
-- Reducción de dimensiones:
-  - PCA/SVD
-  - LSI
-  - MDS y Laplacian Eigenmaps
-  - t-SNE y uMAP
-
-- Clustering
-  - Clustering jerárquico
-  - K-Means y K-Means online
-  - Clustering espectral
-  - DBScan y HDBScan
+Se puede acceder al <a href="https://github.com/AlanValdevenito/Organizacion-de-Datos/blob/main/ENTREGAS/TP2/ENUNCIADO.pdf">enunciado</a> con mas detalles y el <a href="https://github.com/AlanValdevenito/Organizacion-de-Datos/blob/main/ENTREGAS/TP2/dataset.zip">dataset</a> del mismo.
